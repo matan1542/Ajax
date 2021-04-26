@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup</title>
+    <link rel="stylesheet" href="css/world-cup.css">
+</head>
+
+<body onload="onInit()">
+    <main>
+        <header>
+            <h1Welcome class="header">Welcome to the World Cup</h1>
+        </header>
+        <div class="nations flex">
+           
+        </div>
+    </main>
+
+
+    <div class="modal hidden" >
+        <div class="modal-details"> 
+            <span class="close">X</span>
+            <div class="func-result"></div>
+        </div>
+    </div>
+    <script src="js/services/storage-service.js"></script>
+    <script src="js/services/world-cup-service.js"></script>
+<script src="js/controllers/world-cup-controller.js"></script>
+</body>
+
+</html>

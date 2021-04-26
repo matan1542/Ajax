@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes-no</title>
+    <link rel="stylesheet" href="css/yes-no.css">
+</head>
+
+<body onload="onInit()">
+    <div class="headers">
+        <h1 class="page-header">ask anything</h1>
+        <h1 class="page-secondary-title">Yes/No</h1>
+    </div>
+    <input type="search" name="symbol" list="symbols">
+
+    <div class="modal hidden" >
+        <div class="modal-details"> 
+            <span class="close">X</span>
+            <div class="func-result"></div>
+        </div>
+    </div>
+    <script src="lib/jquery.js"></script>
+    <script src="js/services/ans-service-jquery.js"></script>
+    <script src="js/controllers/yes-no-controller.js"></script>
+</body>
+
+</html>

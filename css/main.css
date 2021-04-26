@@ -1,0 +1,40 @@
+.display-books {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  background-color: rgb(228, 220, 220);
+}
+
+.row-header {
+  padding: 0.8rem;
+  margin: 0.4rem;
+  background-color: aliceblue;
+}
+
+.row-details img {
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.person-details {
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+
